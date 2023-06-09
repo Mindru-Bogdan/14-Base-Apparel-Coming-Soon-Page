@@ -5,7 +5,7 @@ import classes from './Card.module.css';
 
 const Card = () => {
   return (
-    <div>
+    <div className={classes.body}>
       <Content />
       <Img />
     </div>

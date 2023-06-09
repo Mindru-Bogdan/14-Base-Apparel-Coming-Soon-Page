@@ -1,0 +1,23 @@
+@media all and (max-width: 1439px) {
+    .imageDesktop {
+        display: none;
+    }
+
+    .imageMobile {
+
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .imageDesktop {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -400px;
+        margin-left: 110px;
+    }
+
+    .imageMobile {
+        display: none;
+    }
+}
