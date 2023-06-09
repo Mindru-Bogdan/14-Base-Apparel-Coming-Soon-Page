@@ -14,7 +14,7 @@
           background-color: transparent;
           color: hsl(0, 6%, 24%);
           font-family: 'Josefin Sans';
-          font-size: 15px;
+          font-size: 13px;
           font-weight: 500;
      }
 
@@ -41,13 +41,34 @@
           cursor: pointer;
           box-shadow: 0px 10px 17px rgba(76, 78, 97, 0.2);
      }
+
+     .error {
+          position: absolute;
+          top: 0px;
+          margin-top: 556px;
+          margin-left: 250px;
+     }
+
+     .errorText {
+          position: absolute;
+          top: 0px;
+          margin-top: 600px;
+          margin-left: 51px;
+          color: hsl(0, 93%, 68%);
+          font-size: 11px;
+          font-weight: 500;
+     }
+
+     .hidden {
+          display: none;
+     }
 }
 
 @media all and (min-width: 1440px) {
      input[type="text"] {
           position: absolute;
           height: 55px;
-          width: 410px;
+          width: 441px;
           top: 0px;
           margin-top: 580px;
           margin-left: 170px;
@@ -85,5 +106,30 @@
           background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
           cursor: pointer;
           box-shadow: 0px 10px 17px rgba(76, 78, 97, 0.2);
+     }
+
+     .arrow:hover {
+          background-image: linear-gradient(135deg, #fadadc, #ebbfc1);
+     }
+
+     .error {
+          position: absolute;
+          top: 0px;
+          margin-top: 596px;
+          margin-left: 475px;
+     }
+
+     .errorText {
+          position: absolute;
+          top: 0px;
+          margin-top: 645px;
+          margin-left: 200px;
+          color: hsl(0, 93%, 68%);
+          font-size: 13px;
+          font-weight: 500;
+     }
+
+     .hidden {
+          display: none;
      }
 }
