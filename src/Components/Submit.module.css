@@ -1,5 +1,46 @@
 @media all and (max-width: 1439px) {
-   
+     input[type="text"] {
+          position: absolute;
+          height: 45px;
+          width: 315px;
+          top: 0px;
+          margin-top: 545px;
+          margin-left: 30px;
+          padding-left: 20px;
+          border-radius: 30px;
+          box-sizing: border-box;
+          border: 1px solid hsl(0, 36%, 70%, 0.4);
+          outline: none;
+          background-color: transparent;
+          color: hsl(0, 6%, 24%);
+          font-family: 'Josefin Sans';
+          font-size: 15px;
+          font-weight: 500;
+     }
+
+     input::placeholder {
+          color: hsl(0, 36%, 70%, 0.4);
+          font-family: 'Josefin Sans';
+          font-weight: 500;
+          background-color: transparent;
+     }
+
+     input[type="text"]:focus {
+          padding-left: 19px;
+          border: 2px solid hsl(0, 93%, 68%);
+     }
+
+     .arrow {
+          position: absolute;
+          top: 0px;
+          margin-top: 545px;
+          margin-left: 283px;
+          padding: 12.5px 25px 12.5px;
+          border-radius: 30px;
+          background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+          cursor: pointer;
+          box-shadow: 0px 10px 17px rgba(76, 78, 97, 0.2);
+     }
 }
 
 @media all and (min-width: 1440px) {
@@ -43,5 +84,6 @@
           border-radius: 30px;
           background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
           cursor: pointer;
+          box-shadow: 0px 10px 17px rgba(76, 78, 97, 0.2);
      }
 }
